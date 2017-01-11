@@ -18,6 +18,7 @@ public class Corporation implements Iterable<Inventory>
 	public void addInventory(Inventory pInventory)
 	{
 		aInventories.put(pInventory.getName(), pInventory);
+		System.out.println("hsidhsi");
 	}
 
 	@Override
